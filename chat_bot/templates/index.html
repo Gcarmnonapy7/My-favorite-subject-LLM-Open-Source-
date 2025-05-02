@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>My favorite subject</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
 
 <body>
   <main class="main">
     <section class="chat",id="chat">
       <div class="chat-header">
-        <img src="images/logo.png" alt="Avatar do Bot">
+        <img src="{{url_for('static',filename='logo.png')}}" alt="Logo">
         <h3>My Favorite Subject</h3>
       </div>
       <div class="chat-box" id="chatBox">

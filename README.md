@@ -36,9 +36,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Run the backend
-python backend/app.py
-
 Then open the frontend manually via frontend/index.html or connect a React frontend to the backend.
 🧠 How It Works
 

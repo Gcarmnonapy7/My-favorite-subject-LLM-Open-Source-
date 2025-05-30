@@ -26,7 +26,7 @@ My Favorite Subject is an open-source educational assistant powered by a custom-
 ⚡ Quick Start
 
 # Clone the repository
-git clone https://github.com/your-username/my-favorite-subject.git
+https://github.com/Gcarmnonapy7/chatbot-ETEP.git
 cd my-favorite-subject
 
 # Create a virtual environment
@@ -42,8 +42,6 @@ Then open the frontend manually via frontend/index.html or connect a React front
     The user sends some input text (e.g., a lesson or topic).
 
     The backend runs it through the custom LLM.
-
-    A summary and five questions (2 easy, 2 medium, 1 hard) are generated.
 
     The assistant returns the response without storing any history for now.
 
